@@ -1,0 +1,29 @@
+{
+  "name": "common-chunk-ify",
+  "version": "0.0.1",
+  "description": "Browserify plugin for Generate an extra chunk, which contains common modules shared between entry points.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^1.5.1",
+    "deps-topo-sort": "^0.2.1",
+    "labeled-stream-splicer": "^2.0.0",
+    "nub": "^1.0.0",
+    "reversepoint": "^0.2.1",
+    "stream-combiner": "^0.2.2",
+    "through2": "^2.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "chai": "^3.5.0",
+    "chai-string": "^1.2.0",
+    "mocha": "^2.4.5",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
